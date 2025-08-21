@@ -1,13 +1,8 @@
-import React, { useState } from "react";
-
 export default function App() {
-  const [photos, setPhotos] = useState([]);
-  const [videos, setVideos] = useState([]);
-
   return (
     <main className="app-container">
       <header className="header">
-        <h1 className="title">Nişan Organizasyonumuza Hoş Geldiniz</h1>
+        <h1 className="title">💍 Nişan Organizasyonumuza Hoş Geldiniz</h1>
         <p className="subtitle">
           En özel anlarınızı bizimle paylaşmak için aşağıdaki alandan fotoğraf
           ve videolarınızı yükleyebilirsiniz.
